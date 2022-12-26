@@ -1,0 +1,359 @@
+#body {
+  background-color: rgb(249, 242, 253);
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* NAVIGATION DIV AND NAVIGATION BUTTON STYLING */
+#navigation_div {
+  text-align: center;
+  display: block;
+  background-color: rgb(72, 2, 72);
+  padding: 15px;
+}
+
+a.nav_menu_link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+a.nav_menu_link:hover {
+  color: rgb(255, 214, 139);
+}
+/* SECTION STYLING BEGINS FROM HERE */
+/* Common for all main headings */
+.heading {
+  color: #ad05d7;
+  font-size: x-large;
+  padding: 5px;
+  text-align: center;
+  margin-bottom: 15px;
+  /* border: 2px solid rgb(209, 21, 77); */
+}
+#heading_skills,
+#heading_certification {
+  text-align: center;
+  font-size: large;
+  color: rgb(72, 2, 72);
+}
+
+.heading_college_name_and_year {
+  color: rgb(72, 2, 72);
+}
+#about_me,
+#skills_and_certificate,
+#work_experience,
+#projects,
+#blogs,
+#educations,
+#interests,
+#github-graph,
+#contact_me {
+  margin: 5px;
+}
+/* ABOUT ME */
+
+#avatar_and_introduction {
+  padding: 5px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+#avatar_women {
+  border: 2px solid rgb(72, 2, 72);
+  border-radius: 50%;
+  padding: 5px;
+  background-color: rgb(243, 226, 255);
+}
+#work_image {
+  display: flex;
+  justify-content: center;
+}
+
+#introduction_person_name {
+  color: rgb(72, 2, 72);
+  font-weight: bold;
+  margin: auto;
+  font-size: medium;
+}
+#introduction_about_what_i_do {
+  margin: auto;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+#resume_and_github_and_contact_button_div {
+  margin-top: 20px;
+  color: rgb(209, 21, 77);
+}
+button#view_my_resume_button {
+  color: white;
+  border-color: rgb(72, 2, 72);
+  background-color: rgb(72, 2, 72);
+}
+button#view_my_resume_button:hover {
+  color: rgb(72, 2, 72);
+  border-color: rgb(243, 226, 255);
+  background-color: rgb(243, 226, 255);
+}
+button#contact_me_button {
+  color: white;
+  border-color: rgb(72, 2, 72);
+  background-color: rgb(72, 2, 72);
+}
+button#contact_me_button:hover {
+  color: rgb(72, 2, 72);
+  border-color: rgb(243, 226, 255);
+  background-color: rgb(243, 226, 255);
+}
+button#github_button {
+  background-color: rgb(243, 226, 255);
+  border: 2px solid rgb(243, 226, 255);
+  color: rgb(72, 2, 72);
+}
+button#github_button:hover {
+  color: white;
+  border-color: rgb(72, 2, 72);
+  background-color: rgb(72, 2, 72);
+}
+#view_my_resume_button,
+#github_button,
+#contact_me_button {
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.row.icons_info {
+  margin: 5px;
+  display: block;
+  text-align: center;
+  margin-top: 1rem;
+}
+.row.skills_info {
+  text-align: center;
+  font-size: large;
+  margin-top: 1rem;
+}
+#two_columns_skills_and_certifications {
+  margin: auto;
+}
+#certification_col {
+  border-radius: 10px;
+}
+
+#certification_list {
+  margin: auto;
+}
+.each-certificate {
+  margin-top: 10px;
+  text-align: center;
+}
+
+img#skills_in_tech {
+  border: 2px solid rgb(209, 21, 77);
+  border-radius: 50%;
+  margin: 10px;
+}
+/* //////////////////////////*/
+
+.card {
+  margin: 20px;
+  padding: 5px;
+  transition: 0.1s ease;
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+
+/* /////////////////////////// */
+#skill_image {
+  display: flex;
+  justify-content: center;
+}
+.row.button_info {
+  margin: 5px;
+}
+/* WORK EXPERIENCE */
+
+#list_of_experience {
+  margin: auto;
+}
+
+.each_workexperience {
+  border-radius: 10px;
+  background-color: white;
+  padding: 15px;
+}
+
+.work_description {
+  text-align: justify;
+  justify-content: inter-word;
+  font-size: large;
+}
+.important_technical_words {
+  color: rgb(209, 21, 77);
+}
+.work_dates {
+  font-size: small;
+  font-weight: bold;
+}
+
+#zignite_labs_col:hover,
+#authority_entrepreneurs_col:hover {
+  transform: translateY(-10px);
+  transition: 0.1s ease;
+}
+
+/* PROJECTS */
+
+.name_of_project {
+  font-weight: bold;
+  color: rgb(72, 2, 72);
+  text-align: center;
+}
+#list_of_projects {
+  margin: auto;
+}
+
+/* healthyrise */
+#project_each {
+  margin: 5px;
+  background-color: #fff9fa;
+  border-radius: 10px;
+}
+
+#view_project_button_div {
+  text-align: center;
+  margin: 5px;
+  background-color: rgb(72, 2, 72);
+  border-radius: 2px;
+  padding: 5px;
+}
+a#project_button {
+  color: white !important;
+  text-decoration: none;
+}
+#view_project_button_div:hover {
+  background-color: rgb(156, 0, 156);
+}
+
+#description_project_col {
+  text-align: justify;
+  padding: 20px;
+  font-size: large;
+}
+.project-each {
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+/* EDUCATIONS */
+
+#nalanda_row {
+  margin-top: 25px;
+}
+#education_list {
+  margin: auto;
+  border-radius: 10px;
+  background-color: white;
+}
+/* INTERESTS */
+img#hustle {
+  height: 300px;
+  width: 300px;
+  margin: auto;
+  /* border: 2px solid rgb(209, 21, 77); */
+  border-radius: 25px;
+}
+#about_hepthwap {
+  text-align: center;
+  margin: 10px;
+  color: rgb(72, 2, 72);
+  font-size: large;
+}
+#hustle_image {
+  margin: 10px;
+}
+/* CONTACT_ME */
+.calendly {
+  color: rgb(233, 130, 5);
+  text-align: center;
+  padding: 25px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+/* UP BUTTON */
+#up {
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  z-index: 1;
+  color: white;
+  transition: transform 250ms;
+  background-color: rgb(72, 2, 72);
+  border-radius: 5px;
+}
+#up:hover {
+  transform: translateY(-10px);
+}
+
+.each-blog-picture {
+  transition: transform 250ms;
+}
+
+.each-blog-picture:hover {
+  transform: translateY(-10px);
+}
+
+.each-project-image {
+  transition: transform 250ms;
+  margin-top: 8px;
+}
+
+.each-project-image:hover {
+  transform: translateY(-10px);
+}
+.name_of_project {
+  transition: transform 250ms;
+}
+
+.name_of_project:hover {
+  transform: translateY(-10px);
+}
+#hustle_image {
+  border-radius: 10px;
+  background-color: white;
+}
+/* Github Profile Graph CSS */
+svg.js-calendar-graph-svg {
+  margin: auto;
+}
+.calendar {
+  border-radius: 10px !important;
+  background-color: white;
+}
+
+@media (max-width: 400px) {
+  .calendly-inline-widget {
+    min-width: 200px !important;
+    margin: auto !important;
+  }
+}
+@media (max-width: 600px) {
+  #navigation_div {
+    display: flex;
+  }
+}
+
+.color-dark-purple {
+  color: rgb(72, 2, 72);
+}
+.color-dark-orange {
+  color: rgb(233, 130, 5);
+}
+div#skill_list {
+  margin: 14px;
+}
