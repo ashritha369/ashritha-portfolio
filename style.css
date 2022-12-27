@@ -56,6 +56,7 @@ a.nav_menu_link:hover {
   padding: 5px;
   border-radius: 10px;
   background-color: white;
+  margin: auto;
 }
 
 #avatar_women {
@@ -138,6 +139,11 @@ button#github_button:hover {
 }
 #certification_col {
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
 }
 
 #certification_list {
@@ -215,10 +221,11 @@ img#skills_in_tech {
 }
 
 /* healthyrise */
-#project_each {
-  margin: 5px;
-  background-color: #fff9fa;
-  border-radius: 10px;
+.project-each {
+  background-color: white;
+  margin: auto !important;
+  padding-bottom: 10px;
+  border-bottom: 2px dotted grey;
 }
 
 #view_project_button_div {
@@ -240,13 +247,16 @@ a#project_button {
   text-align: justify;
   padding: 20px;
   font-size: large;
+  margin: auto;
+  width: 50%;
 }
-.project-each {
-  margin-bottom: 20px;
-  border-radius: 10px;
-  background-color: white;
+div#img_project_col,
+div#img_certificate_col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-
 /* EDUCATIONS */
 
 #nalanda_row {
@@ -270,6 +280,7 @@ img#hustle {
   margin: 10px;
   color: rgb(72, 2, 72);
   font-size: large;
+  background-color: white;
 }
 #hustle_image {
   margin: 10px;
@@ -308,16 +319,19 @@ img#hustle {
   transform: translateY(-10px);
 }
 
-.each-project-image {
+.each-project-image,
+.each-certificate-image {
   transition: transform 250ms;
   margin-top: 8px;
 }
 
-.each-project-image:hover {
+.each-project-image:hover,
+.each-certificate-image:hover {
   transform: translateY(-10px);
 }
 .name_of_project {
   transition: transform 250ms;
+  color: #ad05d7;
 }
 
 .name_of_project:hover {
@@ -342,11 +356,6 @@ svg.js-calendar-graph-svg {
     margin: auto !important;
   }
 }
-@media (max-width: 600px) {
-  #navigation_div {
-    display: flex;
-  }
-}
 
 .color-dark-purple {
   color: rgb(72, 2, 72);
@@ -356,4 +365,17 @@ svg.js-calendar-graph-svg {
 }
 div#skill_list {
   margin: 14px;
+  background-color: white;
+}
+@media (max-width: 800px) {
+  #description_project_col {
+    min-width: 100%;
+    margin: auto !important;
+  }
+}
+@media (max-width: 1190px) {
+  div#img_project_col,
+  div#img_certificate_col {
+    width: 100%;
+  }
 }
