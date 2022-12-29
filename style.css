@@ -15,6 +15,9 @@ a.nav_menu_link {
   text-decoration: none;
   color: white;
   font-weight: bold;
+
+  margin: 5px;
+  border-radius: 3px;
 }
 a.nav_menu_link:hover {
   color: rgb(255, 214, 139);
@@ -143,11 +146,12 @@ button#github_button:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: white;
 }
 
 #certification_list {
   margin: auto;
+  background-color: white;
+  padding: 10%;
 }
 .each-certificate {
   margin-top: 10px;
@@ -196,7 +200,7 @@ img#skills_in_tech {
   font-size: large;
 }
 .important_technical_words {
-  color: rgb(209, 21, 77);
+  color: rgb(233, 130, 5);
 }
 .work_dates {
   font-size: small;
@@ -225,7 +229,7 @@ img#skills_in_tech {
   background-color: white;
   margin: auto !important;
   padding-bottom: 10px;
-  border-bottom: 2px dotted grey;
+  border-bottom: 2px dotted rgb(247, 216, 243);
 }
 
 #view_project_button_div {
@@ -257,6 +261,9 @@ div#img_certificate_col {
   align-items: center;
   justify-content: center;
 }
+div#img_certificate_col {
+  border: 2px dashed rgb(247, 216, 243);
+}
 /* EDUCATIONS */
 
 #nalanda_row {
@@ -266,6 +273,11 @@ div#img_certificate_col {
   margin: auto;
   border-radius: 10px;
   background-color: white;
+}
+.each_education {
+  margin: 10px;
+  border-bottom: 2px dashed rgb(247, 216, 243);
+  margin-left: 3px !important;
 }
 /* INTERESTS */
 img#hustle {
@@ -377,5 +389,17 @@ div#skill_list {
   div#img_project_col,
   div#img_certificate_col {
     width: 100%;
+  }
+}
+@media (max-width: 573px) {
+  #navigation_div {
+    display: flex;
+    background-color: rgb(249, 242, 253);
+  }
+  a.nav_menu_link {
+    border: 2px solid rgb(255, 214, 139);
+
+    background-color: rgb(72, 2, 72);
+    padding: 9px;
   }
 }
