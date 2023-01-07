@@ -429,3 +429,11 @@ div#skill_list {
 .contrib-column.table-column {
   display: none;
 }
+/* aligining the calendar to the middle */
+@media (max-width: 900px) {
+  .calendar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
