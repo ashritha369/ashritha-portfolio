@@ -233,19 +233,40 @@ img#skills_in_tech {
 }
 
 #view_project_button_div {
-  text-align: center;
   margin: 5px;
   background-color: rgb(72, 2, 72);
   border-radius: 2px;
   padding: 5px;
+  color: white !important;
+  border: 2px solid rgb(72, 2, 72);
 }
 a#project_button {
-  color: white !important;
   text-decoration: none;
+  display: flex;
+  justify-content: center;
 }
 #view_project_button_div:hover {
   background-color: rgb(156, 0, 156);
+  color: white !important;
+  border: 2px solid rgb(156, 0, 156);
 }
+
+/*  */
+#view_nav_button_div {
+  margin: 5px;
+  background-color: rgb(72, 2, 72);
+  border-radius: 2px;
+  padding: 5px;
+  color: white !important;
+  border: 2px solid rgb(72, 2, 72);
+  font-weight: bold;
+}
+#view_nav_button_div:hover {
+  background-color: rgb(255, 214, 139);
+  color: rgb(72, 2, 72) !important;
+  border: 2px solid rgb(255, 214, 139);
+}
+/*  */
 
 #description_project_col {
   text-align: justify;
