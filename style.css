@@ -403,3 +403,8 @@ div#skill_list {
     padding: 9px;
   }
 }
+
+/* HIDING THE GITHUB GRAPH CALENDER'S DETAILS OF LAST YEAR'S CONTRIBUTION, LONGEST STREAK, CURRENT STREAK */
+.contrib-column.table-column {
+  display: none;
+}
